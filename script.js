@@ -38,8 +38,9 @@ Phone: ${phone}
 Loan Amount: ${amount}
 Purpose: ${purpose}`;
 
-let url=`https://wa.me/254708039015?text=${encodeURIComponent(message)}`;
+let url=`https://wa.me/254729983747?text=${encodeURIComponent(message)}`;
 
 window.open(url,"_blank");
+
 
 });
