@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ascend Finance</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">ASCEND FINANCE</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#calculator">Calculator</a></li>
+<li><a href="#apply">Apply</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<a href="#apply" class="btn">Apply Now</a>
+
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<h1>Fast & Reliable Micro Loans</h1>
+
+<p>Get quick financial support with flexible repayment plans.</p>
+
+<div class="hero-buttons">
+<a href="#apply" class="btn">Apply for Loan</a>
+<a href="#calculator" class="btn-outline">Calculate Loan</a>
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<h2>About Ascend Finance</h2>
+
+<div class="about-grid">
+
+<div class="card">Quick Loan Approval</div>
+<div class="card">Transparent Charges</div>
+<div class="card">Flexible Repayment</div>
+<div class="card">Secure Transactions</div>
+
+</div>
+
+</section>
+
+
+<!-- LOAN CALCULATOR -->
+
+<section id="calculator" class="calculator">
+
+<h2>Loan Calculator</h2>
+
+<div class="calc-box">
+
+<label>Loan Amount</label>
+<input type="number" id="amount" placeholder="Enter amount">
+
+<label>Loan Duration (Months)</label>
+<input type="number" id="months" placeholder="Months">
+
+<button onclick="calculateLoan()" class="btn">Calculate</button>
+
+<div class="results">
+
+<p>Monthly Interest (30%): <span id="monthlyInterest">0</span></p>
+
+<p>Total Interest: <span id="totalInterest">0</span></p>
+
+<p>Total Repayment: <span id="totalRepayment">0</span></p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- LOAN APPLICATION -->
+
+<section id="apply" class="apply">
+
+<h2>Loan Application</h2>
+
+<form id="loanForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="text" id="idNumber" placeholder="National ID">
+
+<input type="text" id="phone" placeholder="Phone Number">
+
+<input type="number" id="loanAmount" placeholder="Loan Amount">
+
+<input type="text" id="purpose" placeholder="Loan Purpose">
+
+<button type="submit" class="btn">Submit Application</button>
+
+</form>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>Phone: 0708039015</p>
+
+<a href="https://wa.me/254708039015" class="btn">WhatsApp Us</a>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Ascend Finance</p>
+
+</footer>
+
+
+<a href="https://wa.me/254708039015" class="whatsapp">💬</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
